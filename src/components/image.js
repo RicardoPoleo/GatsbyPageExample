@@ -14,7 +14,7 @@ import Img from "gatsby-image"
  */
 
 const Image = () => {
-//This could go wrong
+//This could go wrong (in fact, I know its not going to work)
   return <Img fluid="https://kyleclapper.com/static/6d91c86c0fde632ba4cd01062fd9ccfa/67d59/gatsby-astronaut.png"/>
 }
 
