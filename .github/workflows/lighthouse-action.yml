@@ -17,6 +17,6 @@ jobs:
       - name:
         run: |
           npm install -g @lhci/cli@v0.3.x
-          lhci autorun
+          lhci autorun --upload.target=temporary-public-storage || echo "LHCI Failed!!!!"
         env:
           LHCI_GITHUB_APP_TOKEN: ${{secrets.LHCI_GITHUB_APP_TOKEN}}
