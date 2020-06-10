@@ -10,7 +10,7 @@ const SecondPage = () => (
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
     <p>Just adding some external links to see how lighthouse behaves</p>
-    <iframe width="1851" height="777" src="https://www.youtube.com/embed/C7dPqrmDWxs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe title="One nice video" width="1080" height="900" src="https://www.youtube.com/embed/C7dPqrmDWxs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <Link to="/">Go back to the homepage</Link>
   </Layout>

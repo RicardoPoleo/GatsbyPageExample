@@ -8,9 +8,10 @@ const CheckForm = () => (
     <h1>This is a form with somethings that should trigger some warnings</h1>
         <p>Please check my form</p>
         
-        <form id="contact-form" onSubmit="#" method="POST">
-            <label for="search">Search:</label> <input type="text" name="search" id="search"></input>
-            <label for="email">Email: </label> <input type="text" name="email" id="email"></input>
+    <form id="contact-form" onSubmit="#" method="POST">
+          Some pretty info
+          <input type="text" name="search" id="search">Search:</input> 
+          <input type="text" name="email" id="email">Email:</input> 
         </form>
 
     <Link to="/">Go back to the homepage</Link>
