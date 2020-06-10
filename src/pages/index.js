@@ -15,7 +15,7 @@ const IndexPage = () => (
       <Image />
     </div>
 
-
+    <iframe width="1851" height="777" src="https://www.youtube.com/embed/C7dPqrmDWxs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <br/>
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
